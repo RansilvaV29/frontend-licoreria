@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e980c07.css",
-    "main.js": "/static/js/main.6098aa7c.js",
-    "static/js/488.e75445ad.chunk.js": "/static/js/488.e75445ad.chunk.js",
-    "index.html": "/index.html",
-    "main.0e980c07.css.map": "/static/css/main.0e980c07.css.map",
-    "main.6098aa7c.js.map": "/static/js/main.6098aa7c.js.map",
-    "488.e75445ad.chunk.js.map": "/static/js/488.e75445ad.chunk.js.map"
+    "main.css": "/frontend-licoreria/build/static/css/main.0e980c07.css",
+    "main.js": "/frontend-licoreria/build/static/js/main.b615e618.js",
+    "static/js/488.e75445ad.chunk.js": "/frontend-licoreria/build/static/js/488.e75445ad.chunk.js",
+    "index.html": "/frontend-licoreria/build/index.html",
+    "main.0e980c07.css.map": "/frontend-licoreria/build/static/css/main.0e980c07.css.map",
+    "main.b615e618.js.map": "/frontend-licoreria/build/static/js/main.b615e618.js.map",
+    "488.e75445ad.chunk.js.map": "/frontend-licoreria/build/static/js/488.e75445ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e980c07.css",
-    "static/js/main.6098aa7c.js"
+    "static/js/main.b615e618.js"
   ]
 }
