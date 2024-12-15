@@ -20,7 +20,7 @@ const EditProduct = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await fetch('http://localhost:3000/categorias');
+        const response = await fetch('https://backend-licoreria-o15a.onrender.com/categorias');
         const data = await response.json();
         setCategories(data); // Guardamos las categorías
       } catch (error) {
@@ -35,7 +35,7 @@ const EditProduct = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/productos/${idproducto}`);
+        const response = await fetch(`https://backend-licoreria-o15a.onrender.com/productos/${idproducto}`);
         const data = await response.json();
         setProduct(data[0]); // Suponiendo que la respuesta es un array con un solo producto
       } catch (error) {
@@ -74,7 +74,7 @@ const EditProduct = () => {
     }
 
     try {
-      const response = await fetch(`http://localhost:3000/productos/${idproducto}`, {
+      const response = await fetch(`https://backend-licoreria-o15a.onrender.com/productos/${idproducto}`, {
         method: 'PUT',
         body: formData, // Aquí se envía el FormData con la imagen
       });

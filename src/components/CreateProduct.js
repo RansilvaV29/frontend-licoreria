@@ -16,7 +16,7 @@ const CreateProduct = () => {
     useEffect(() => {
         const fetchCategorias = async () => {
             try {
-                const response = await fetch('http://localhost:3000/categorias');
+                const response = await fetch('https://backend-licoreria-o15a.onrender.com/categorias');
                 const data = await response.json();
                 setCategorias(data);
             } catch (error) {
@@ -49,7 +49,7 @@ const CreateProduct = () => {
         formData.append('foto_url', foto); // Enviamos la foto
 
         try {
-            const response = await fetch('http://localhost:3000/productos', {
+            const response = await fetch('https://backend-licoreria-o15a.onrender.com/productos', {
                 method: 'POST',
                 body: formData,
             });

@@ -13,7 +13,7 @@ const ProductsPage = () => {
     useEffect(() => {
         const fetchProductos = async () => {
             try {
-                const response = await axios.get('http://localhost:3000/productos');
+                const response = await axios.get('https://backend-licoreria-o15a.onrender.com/productos');
                 setProductos(response.data);
                 setLoading(false);
             } catch (error) {
