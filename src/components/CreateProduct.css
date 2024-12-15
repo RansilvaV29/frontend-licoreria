@@ -1,0 +1,77 @@
+/* src/components/CreateProduct.css */
+.create-product {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-product h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.create-product .form-group {
+    margin-bottom: 15px;
+}
+
+.create-product label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-product input[type="text"],
+.create-product input[type="number"],
+.create-product select,
+.create-product input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.create-product button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-product button:hover {
+    background-color: #45a049;
+}
+
+.create-product .form-group input[type="file"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.create-product select {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.create-product .form-group input[type="file"]:hover {
+    border-color: #aaa;
+}
+
+.create-product input[type="text"]:focus,
+.create-product input[type="number"]:focus,
+.create-product select:focus,
+.create-product input[type="file"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
