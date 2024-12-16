@@ -27,8 +27,8 @@ const NavBar = () => {
                     </li>
                     <li>
                         <Link
-                            to="/orders"
-                            className={location.pathname === '/orders' ? 'active' : ''}
+                            to="/create-order"
+                            className={location.pathname === '/create-order' ? 'active' : ''}
                             onClick={closeMenu}
                         >
                             Órdenes
@@ -36,11 +36,11 @@ const NavBar = () => {
                     </li>
                     <li>
                         <Link
-                            to="/reports"
-                            className={location.pathname === '/reports' ? 'active' : ''}
+                            to="/orders-page"
+                            className={location.pathname === '/orders-page' ? 'active' : ''}
                             onClick={closeMenu}
                         >
-                            Reportes
+                            Ver Órdenes
                         </Link>
                     </li>
                     <li>
