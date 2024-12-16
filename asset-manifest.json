@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/frontend-licoreria/static/css/main.0e980c07.css",
-    "main.js": "/frontend-licoreria/static/js/main.e1da54ce.js",
+    "main.css": "/frontend-licoreria/static/css/main.1d9c66dd.css",
+    "main.js": "/frontend-licoreria/static/js/main.2c9a64cc.js",
     "static/js/488.e75445ad.chunk.js": "/frontend-licoreria/static/js/488.e75445ad.chunk.js",
     "index.html": "/frontend-licoreria/index.html",
-    "main.0e980c07.css.map": "/frontend-licoreria/static/css/main.0e980c07.css.map",
-    "main.e1da54ce.js.map": "/frontend-licoreria/static/js/main.e1da54ce.js.map",
+    "main.1d9c66dd.css.map": "/frontend-licoreria/static/css/main.1d9c66dd.css.map",
+    "main.2c9a64cc.js.map": "/frontend-licoreria/static/js/main.2c9a64cc.js.map",
     "488.e75445ad.chunk.js.map": "/frontend-licoreria/static/js/488.e75445ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e980c07.css",
-    "static/js/main.e1da54ce.js"
+    "static/css/main.1d9c66dd.css",
+    "static/js/main.2c9a64cc.js"
   ]
 }
